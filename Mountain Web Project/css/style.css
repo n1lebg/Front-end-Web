@@ -1,0 +1,481 @@
+body {
+	background-color: #202c3f;
+	height:auto;
+}
+
+
+@font-face {
+	font-family: 'FjallaOne-Regular';
+	src: url('fonts/FjallaOne-Regular.ttf');
+	src: local('FjallaOne-Regular'), url('fonts/FjallaOne-Regular.ttf') format('truetype');
+ 	font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'Quicksand-Bold';
+	src: url('fonts/quicksand/Quicksand-Bold.otf');
+	src: local('Quicksand-Bold'), url('fonts/quicksand/Quicksand-Bold.otf') format('truetype');
+ 	font-weight: bold;
+}
+
+@font-face {
+	font-family: 'Quicksand-Regular';
+	src: url('fonts/quicksand/Quicksand-Regular.otf');
+	src: local('Quicksand-Regular'), url('fonts/quicksand/Quicksand-Regular.otf') format('truetype');
+ 	font-weight: normal;
+}
+
+.wrapper {
+	position:relative;
+	width: 960px;
+	background-color: white;
+	height:1500px;
+	margin: 0 auto;
+	bottom: 10px;
+} 
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #647B9F;
+}
+
+li {
+    float: right;
+    padding:0 10px 0 10px;
+    height:60px;
+
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px 15px;
+    height:60px;
+    text-decoration: none;
+    font-family: 'FjallaOne-Regular', sans-serif;
+	text-transform: uppercase;
+}
+
+li a:hover {
+	background-color: #2b446d;
+	color:white;
+}
+
+.headingImage img {
+	width:960px;
+	height:500px;
+	opacity: 0.9;
+	bottom:20px;
+}
+
+.headingImageText {
+	position:relative;
+	text-align: center;
+	bottom:430px;	
+	color: #0A1629;
+}
+
+.headingImageText h1 {
+	font-family: 'Quicksand-Bold', sans-serif;
+
+}
+
+.headingImageText h4 {
+	font-family: 'Quicksand-Regular', sans-serif;
+	letter-spacing:2px;
+}
+
+.midSection {
+	position:relative;
+	background-color: #1A1E23;
+	height: 250px;	
+}
+
+.midSectionTop {
+	position:relative;
+	background-color: #b8c9e3;
+	height: 200px;
+	bottom:145px;
+}
+
+.mid-section-bottom {
+	position:relative;
+	bottom:110px;
+	color: white;
+	text-align:center;
+	
+}
+
+.mid-section-bottom h1 {
+	font-family: 'FjallaOne-Regular', sans-serif;
+	text-transform: uppercase;
+	letter-spacing:5px;
+	font-size:22px;
+}
+
+.mid-section-bottom p {
+	font-family: 'Quicksand-Regular', sans-serif;
+	font-size:14px;
+}
+
+.leftColumn {
+	position: relative;
+	background-color: grey;
+	width:25%;
+	height:200px;
+	text-align: center;
+	margin-left:6.25%;
+}
+
+.midColumn {
+	position: relative;
+	background-color: brown;
+	width:25%;
+	height:200px;
+	text-align: center;
+	margin-left: 37.5%;
+	bottom:222px;
+}
+
+.rightColumn {
+	position: relative;
+	background-color: green;
+	width:25%;
+	height:200px;
+	text-align: center;
+	margin-left: 68.75%;
+	bottom:443px;
+}
+
+.pictureLinks {
+	position: relative;
+	height:1500px;
+}
+
+.pictureOne {
+	position: relative;
+}
+
+.pictureTwo {
+	position: relative;
+	left:25%;
+	bottom:205px;
+}
+
+.pictureThree {
+	position: relative;
+	left:50%;
+	bottom:410px;
+}
+
+.pictureFour {
+	position: relative;
+	left:75%;
+	bottom:615px;
+}
+
+.pictureFive {
+	position: relative;
+	bottom:618px;
+}
+
+.pictureSix {
+	position: relative;
+	bottom:822px;
+	left:25%;
+}
+
+.pictureSeven {
+	position: relative;
+	bottom:1027px;
+	left:50%;
+}
+
+.pictureEight {
+	position: relative;
+	bottom:1232px;
+	left:75%;
+}
+
+.pictureLinks a:hover {
+	opacity: 0.8;
+
+}
+
+.pricing-list-section {
+	position: relative;
+	bottom:1122px;
+	background-color: #ADB9CB;
+	height:700px;
+}
+
+.pricing-list {
+	height:700px;
+}
+
+#pricing-list-text {
+	position:relative;
+	text-align:center;
+	top:20px;
+	margin-bottom:-50px;
+	color: black;
+	text-transform: uppercase;
+}
+
+#pricing-list-text h1 {
+	font-size:24px;
+	font-family: 'FjallaOne-Regular', sans-serif;
+	letter-spacing:3px;
+}
+
+#pricing-list-text p {
+	font-size:18px;
+	font-family: 'FjallaOne-Regular', sans-serif;
+	letter-spacing:3px;
+}
+
+.pricing-item1 {
+	position:relative;
+	top: 80px;
+	height:550px;
+	width: 25%;
+	background-color: #202c3f;
+	margin-left:6.25%;
+}
+
+.pricing-item1 h3 {
+	position:relative;
+	top:10px;
+	color:white;
+	text-align:center;
+	border:2px solid #050e1b;
+	padding:10px;
+	margin:10px;
+	border-left:hidden;
+	border-right:hidden;
+	border-top:hidden;
+	font-size:24px;
+	text-transform: uppercase;
+	font-family: 'FjallaOne-Regular', sans-serif;
+	letter-spacing:2px;
+}
+
+.pricing-item2 {
+	position:relative;
+	bottom:480px;
+	left:37.5%;
+	height:550px;
+	width: 25%;
+	background-color: #202c3f;
+	
+}
+
+.pricing-item2 h3 {
+	position:relative;
+	top:10px;
+	color:white;
+	text-align:center;
+	border:2px solid #050e1b;
+	padding:10px;
+	margin:10px;
+	border-left:hidden;
+	border-right:hidden;
+	border-top:hidden;
+	font-size:24px;
+	text-transform: uppercase;
+	font-family: 'FjallaOne-Regular', sans-serif;
+	letter-spacing:2px;
+}
+
+.pricing-item3 {
+	position:relative;
+	bottom:1040px;
+	left:68.75%;
+	height:550px;
+	width: 25%;
+	background-color: #202c3f;
+}
+
+.pricing-item3 h3 {
+	position:relative;
+	top:10px;
+	color:white;
+	text-align:center;
+	border:2px solid #050e1b;
+	padding:10px;
+	margin:10px;
+	border-left:hidden;
+	border-right:hidden;
+	border-top:hidden;
+	font-size:24px;
+	text-transform: uppercase;
+	font-family: 'FjallaOne-Regular', sans-serif;
+	letter-spacing:2px;
+}
+
+.pricing-price {
+	position:relative;
+	color: white;
+	text-align:center;
+	padding:10px;
+	font-size:24px;
+	text-transform: uppercase;
+	font-family: 'FjallaOne-Regular', sans-serif;
+	letter-spacing:1px;
+}
+
+.pricing-sentence {
+	position:relative;
+	padding: 10px;
+	color: white;
+	text-align:center;
+	font-size:16px;
+	font-family: 'FjallaOne-Regular', sans-serif;
+	letter-spacing:1px;
+}
+
+.pricing-feature-list {
+	position:relative;
+	background-color:#202c3f;
+	vertical-align: text-top;
+	height:270px;
+	margin: 0;
+	font-size:18px;
+}
+
+.pricing-feature {
+	position:relative;
+	float:left;
+	height:20px;
+	display:inline;
+	color:white;
+	padding-left:40px;
+	padding-top:15px;
+	padding-bottom:20px;
+	font-family: 'Quicksand-Regular', sans-serif;
+}
+
+.pricing-action {
+	border:hidden;
+	position:absolute;
+	top: 480px;
+	left:22.5px;
+	height:50px;
+	width:200px;
+	background-color: #CCD6E5;
+	border-radius:10px;
+	color:black;
+	font-size:20px;
+	text-transform:uppercase;
+	font-family: 'FjallaOne-Regular', sans-serif;
+	letter-spacing:2px;
+}
+
+.pricing-action:hover {
+	cursor:pointer;
+	background-color: #768eaf;
+	-webkit-transition: background 0.5s;
+	transition: background 0.5s;
+}
+
+.pricing-item1:hover {
+	background-color: #18202e;
+	cursor:pointer;
+	-webkit-transition: background 0.5s;
+	transition: background 0.5s;
+}
+
+.pricing-item2:hover {
+	background-color: #18202e;
+	cursor:pointer;
+	-webkit-transition: background 0.5s;
+	transition: background 0.5s;
+}
+
+.pricing-item3:hover {
+	background-color: #18202e;
+	cursor:pointer;
+	-webkit-transition: background 0.5s;
+	transition: background 0.5s;
+	
+}
+
+.pricing-item1 .pricing-feature-list:hover {
+	background-color:#18202e;
+	-webkit-transition: background 0.5s;
+	transition: background 0.5s;
+}
+
+.pricing-item2 .pricing-feature-list:hover {
+	background-color:#18202e;
+	-webkit-transition: background 0.5s;
+	transition: background 0.5s;
+}
+
+.pricing-item3 .pricing-feature-list:hover {
+	background-color:#18202e;
+	-webkit-transition: background 0.5s;
+	transition: background 0.5s;
+}
+
+#footer-ul li {
+	position:relative;
+	float:left;
+}
+
+footer {
+	position:relative;
+	bottom:1120px;
+	background-color: #1a1e23;
+	height:200px;
+}
+
+.footer-links {
+	position:relative;
+	top:50px;
+	left:50px;
+	height:50px;
+	width:400px;
+	background-color:#1a1e23;
+}
+
+.footer-links li {
+	width:80px;
+	float:left;
+	background-color: #1a1e23;
+	
+}
+
+.footer-links li a {
+	color:white;
+}
+
+
+.social-icons {
+	position:relative;
+	left:500px;
+	height:100px;
+	width:400px;
+	background-color:grey;
+}
+
+.designed-by {
+	position:relative;
+	left:50px;
+	bottom:50px;
+	width:400px;
+}
+
+.designed-by p {
+	position:relative;
+	left:30px;
+	color:white;
+	font-size:16px;
+	letter-spacing:1px;
+	font-family: 'Quicksand-Bold', sans-serif;
+}

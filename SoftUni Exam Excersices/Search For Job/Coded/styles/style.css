@@ -1,0 +1,282 @@
+body {
+	font-family: Tahoma, sans-serif;
+	font-size:14px;
+}
+
+#wrapper {
+	width: 1000px;
+	height:auto;
+	margin: 0 auto;
+}
+
+header {
+	position:relative;
+	height:70px;
+	background-color: #384452;
+}
+
+section {
+	background-color: #eeeeee;
+	height: 270px;
+}
+
+#searchBusiness {
+	position:relative;
+	width:180px;
+	background-color: #3bbc96;
+	height: 70px;
+}
+
+#searchBusinessContent {
+
+	height:70px;
+	position:relative;
+}
+
+#searchBusinessText {
+	position:relative;
+	text-align:center;
+	vertical-align:middle;
+	line-height: 30px;
+	margin-top:-52px;
+	margin-left:25px;
+	color:white;
+}
+
+#searchBusinessContent img {
+	margin-left:5px;
+}
+
+#businessCategories {
+
+	position:relative;
+	width:180px;
+	height: 70px;
+	margin-left:180px;
+	margin-top:-70px;
+}
+
+#businessCategoriesContent {
+
+	height:70px;
+	position:relative;
+}
+
+#businessCategoriesText {
+	position:relative;
+	text-align:center;
+	vertical-align:middle;
+	line-height: 30px;
+	margin-top:-53px;
+	margin-left:25px;
+	color:#afb7c2;
+}
+
+#businessCategoriesContent img {
+	margin-left:-5px;
+}
+
+#recentLocations {
+
+	position:relative;
+	width:180px;
+	height: 70px;
+	margin-left:360px;
+	margin-top:-70px;
+}
+
+#recentLocationsContent {
+
+	height:70px;
+	position:relative;
+}
+
+#recentLocationsText {
+	position:relative;
+	text-align:center;
+	vertical-align:middle;
+	line-height: 30px;
+	margin-top:-53px;
+	margin-left:15px;
+	color:#afb7c2;
+}
+
+#recentLocationsContent img {
+	margin-left:-5px;
+}
+
+#agentsLocated {
+
+	position:relative;
+	width:180px;
+	height: 70px;
+	margin-left:540px;
+	margin-top:-70px;
+}
+
+#agentsLocatedContent {
+
+	height:70px;
+	position:relative;
+}
+
+#agentsLocatedText {
+	position:relative;
+	text-align:center;
+	vertical-align:middle;
+	line-height: 30px;
+	margin-top:-53px;
+	margin-left:15px;
+	color:#afb7c2;
+}
+
+#agentsLocatedContent img {
+	margin-left:0px;
+}
+
+#businessNameLabel {
+	position:relative;
+	top:35px;
+	padding:30px;
+	margin-top:10px;
+	font-weight:bold;
+	color: #384452;
+}
+
+#businessName {
+	position:relative;
+	margin-left:30px;
+	margin-top:45px;
+	width:210px;
+	height:35px;
+}
+
+#countryLabel {
+	position:relative;
+	left:-2px;
+	top:-54px;
+	padding:30px;
+	margin-top:10px;
+	font-weight:bold;
+	color: #384452;
+}
+
+#country {
+	position:relative;
+	margin-left:275px;
+	top:-58px;
+	width:210px;
+	height:35px;
+}
+
+#cityStateLabel {
+	position:relative;
+	left:-2px;
+	top:-111px;
+	padding:30px;
+	margin-top:10px;
+	font-weight:bold;
+	color: #384452;
+}
+
+#cityState {
+	position:relative;
+	margin-left:520px;
+	top:-116px;
+	width:210px;
+	height:35px;
+}
+
+#zipCodeLabel {
+	position:relative;
+	left:-2px;
+	top:-169px;
+	padding:30px;
+	margin-top:10px;
+	font-weight:bold;
+	color: #384452;
+}
+
+#zipCode {
+	position:relative;
+	margin-left:763px;
+	top:-174px;
+	width:210px;
+	height:35px;
+}
+
+#employersLabel {
+	position:relative;
+	top:-140px;
+	padding:30px;
+	margin-top:10px;
+	font-weight:bold;
+	color: #384452;
+}
+
+#employers {
+	position:relative;
+	margin-left:30px;
+	top:-130px;
+	width:210px;
+	height:35px;
+}
+
+#startupDateLabel {
+	position:relative;
+	left:-2px;
+	top:-185px;
+	padding:30px;
+	margin-top:10px;
+	font-weight:bold;
+	color: #384452;
+}
+
+#startupDate {
+	position:relative;
+	margin-left:275px;
+	top:-188px;
+	width:210px;
+	height:35px;
+}
+
+#jobOpportunityLabel {
+	position:relative;
+	left:-2px;
+	top:-243px;
+	padding:30px;
+	margin-top:10px;
+	font-weight:bold;
+	color: #384452;
+}
+
+#jobOpportunity {
+	position:relative;
+	margin-left:520px;
+	top:-247px;
+	width:210px;
+	height:35px;
+}
+
+#submit {
+	position:relative;
+	left:23px;
+	width:210px;
+	height:43px;
+	background-color:#3bbc96;
+	top:-246px;
+	border-radius:5px;
+	border:hidden;
+	color:white;
+	
+}
+#submit:hover{
+	background-color:#384452;
+	
+}
+
+#startupDate::-webkit-input-placeholder { color:black; }
+
+::-webkit-input-placeholder {
+   padding-left:10px;
+}
